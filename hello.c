@@ -23,11 +23,7 @@ int main() {
 
     printf("=== 学生成绩管理系统 ===\n");
     
-    // 输入学生人数
-    do {
-        printf("请输入学生人数（1-%d）：", MAX_STUDENTS);
-        scanf("%d", &numStudents);
-    } while (numStudents <= 0 || numStudents > MAX_STUDENTS);
+
 
     // 输入学生信息
     inputStudents(students, numStudents);
